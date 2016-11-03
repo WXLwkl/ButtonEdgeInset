@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "699FADD5DDEA10378AA1C5665160A09C1930951E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "699FADD5DDEA10378AA1C5665160A09C1930951E" : 9223372036854775807,
+    "25FB4C79C41FA564166C41731DC401291628BD08" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E6EBA27F-D9E0-46CF-890F-8597E8CFDAA8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "699FADD5DDEA10378AA1C5665160A09C1930951E" : "ButtonEdgeInset\/",
+    "25FB4C79C41FA564166C41731DC401291628BD08" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ButtonEdgeInset",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ButtonEdgeInset\/ButtonEdgeInset.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WXLwkl\/XLTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "25FB4C79C41FA564166C41731DC401291628BD08"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WXLwkl\/ButtonEdgeInset.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "699FADD5DDEA10378AA1C5665160A09C1930951E"
+    }
+  ]
+}
