@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIButton+FixMultiClick.h"
 #import "UIButton+EdgeInset.h"
+#import "MyButton.h"
 @interface ViewController ()
 
 @end
@@ -75,6 +76,17 @@
     [btn3 addTarget:self action:@selector(goHome:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn3];
     [btn3 titleLeftAndImageRightWithSpace:20];
+    
+    
+    MyButton *btn4 = [MyButton buttonWithType:UIButtonTypeCustom title:@"ABCDEFG" image:[UIImage imageNamed:@"1.png"] frame:CGRectMake(0, 100, 300, 150) ButtonEdgeInsetsStyle:ButtonEdgeInsetsStyleTop buttonClick:^(UIButton *sender) {
+        NSLog(@"--%@",sender.titleLabel.text);
+    }];
+    [self.view addSubview:btn4];
+    
+    MyButton *btn5 = [MyButton buttonWithType:UIButtonTypeCustom title:@"ABC" frame:CGRectMake(0, 260, 300, 50) buttonClick:^(UIButton *sender) {
+        NSLog(@"--%@",sender.titleLabel.text);
+    }];
+    [self.view addSubview:btn5];
 }
 
 - (void)goHome:(id)sender {

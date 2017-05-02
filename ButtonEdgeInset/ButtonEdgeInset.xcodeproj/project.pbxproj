@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		91B297DF1DCB2A62005D63E6 /* UIButton+EdgeInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B297DC1DCB2A62005D63E6 /* UIButton+EdgeInset.m */; };
 		91B297E01DCB2A62005D63E6 /* UIButton+FixMultiClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B297DE1DCB2A62005D63E6 /* UIButton+FixMultiClick.m */; };
+		91F5748A1EB8546C00E0921F /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F574891EB8546C00E0921F /* MyButton.m */; };
 		D3AB94951D23F2A700EDE7A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB94941D23F2A700EDE7A8 /* main.m */; };
 		D3AB94981D23F2A700EDE7A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB94971D23F2A700EDE7A8 /* AppDelegate.m */; };
 		D3AB949B1D23F2A700EDE7A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB949A1D23F2A700EDE7A8 /* ViewController.m */; };
@@ -24,6 +25,8 @@
 		91B297DC1DCB2A62005D63E6 /* UIButton+EdgeInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EdgeInset.m"; sourceTree = "<group>"; };
 		91B297DD1DCB2A62005D63E6 /* UIButton+FixMultiClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FixMultiClick.h"; sourceTree = "<group>"; };
 		91B297DE1DCB2A62005D63E6 /* UIButton+FixMultiClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FixMultiClick.m"; sourceTree = "<group>"; };
+		91F574881EB8546C00E0921F /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		91F574891EB8546C00E0921F /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
 		D3AB94901D23F2A700EDE7A8 /* ButtonEdgeInset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonEdgeInset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AB94941D23F2A700EDE7A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3AB94961D23F2A700EDE7A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				D3AB94971D23F2A700EDE7A8 /* AppDelegate.m */,
 				D3AB94991D23F2A700EDE7A8 /* ViewController.h */,
 				D3AB949A1D23F2A700EDE7A8 /* ViewController.m */,
+				91F574881EB8546C00E0921F /* MyButton.h */,
+				91F574891EB8546C00E0921F /* MyButton.m */,
 				D3AB949C1D23F2A700EDE7A8 /* Main.storyboard */,
 				D3AB949F1D23F2A700EDE7A8 /* Assets.xcassets */,
 				D3AB94A11D23F2A700EDE7A8 /* LaunchScreen.storyboard */,
@@ -179,6 +184,7 @@
 				91B297DF1DCB2A62005D63E6 /* UIButton+EdgeInset.m in Sources */,
 				91B297E01DCB2A62005D63E6 /* UIButton+FixMultiClick.m in Sources */,
 				D3AB949B1D23F2A700EDE7A8 /* ViewController.m in Sources */,
+				91F5748A1EB8546C00E0921F /* MyButton.m in Sources */,
 				D3AB94981D23F2A700EDE7A8 /* AppDelegate.m in Sources */,
 				D3AB94951D23F2A700EDE7A8 /* main.m in Sources */,
 			);
