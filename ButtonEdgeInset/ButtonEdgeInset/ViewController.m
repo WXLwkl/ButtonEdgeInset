@@ -66,7 +66,7 @@
     UIButton *btn3                  = [UIButton buttonWithType:UIButtonTypeCustom];
     btn3.backgroundColor            = [UIColor redColor];
 
-    btn3.cs_acceptEventInterval = 1;//时间间隔
+//    btn3.cs_acceptEventInterval = 1;//时间间隔
     btn3.frame                      = CGRectMake(100, 500, 200, 120);
     [btn3 setTitle:@"新浪登陆" forState:UIControlStateNormal];
     [btn3 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];

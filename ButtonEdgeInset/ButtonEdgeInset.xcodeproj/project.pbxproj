@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		915854451ED2BF1F003A99EB /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 915854441ED2BF1F003A99EB /* UIButton+CountDown.m */; };
 		91B297DF1DCB2A62005D63E6 /* UIButton+EdgeInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B297DC1DCB2A62005D63E6 /* UIButton+EdgeInset.m */; };
 		91B297E01DCB2A62005D63E6 /* UIButton+FixMultiClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B297DE1DCB2A62005D63E6 /* UIButton+FixMultiClick.m */; };
 		91F5748A1EB8546C00E0921F /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F574891EB8546C00E0921F /* MyButton.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		915854431ED2BF1F003A99EB /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		915854441ED2BF1F003A99EB /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
 		91B297DB1DCB2A62005D63E6 /* UIButton+EdgeInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EdgeInset.h"; sourceTree = "<group>"; };
 		91B297DC1DCB2A62005D63E6 /* UIButton+EdgeInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EdgeInset.m"; sourceTree = "<group>"; };
 		91B297DD1DCB2A62005D63E6 /* UIButton+FixMultiClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FixMultiClick.h"; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				D3AB949A1D23F2A700EDE7A8 /* ViewController.m */,
 				91F574881EB8546C00E0921F /* MyButton.h */,
 				91F574891EB8546C00E0921F /* MyButton.m */,
+				915854431ED2BF1F003A99EB /* UIButton+CountDown.h */,
+				915854441ED2BF1F003A99EB /* UIButton+CountDown.m */,
 				D3AB949C1D23F2A700EDE7A8 /* Main.storyboard */,
 				D3AB949F1D23F2A700EDE7A8 /* Assets.xcassets */,
 				D3AB94A11D23F2A700EDE7A8 /* LaunchScreen.storyboard */,
@@ -187,6 +192,7 @@
 				91F5748A1EB8546C00E0921F /* MyButton.m in Sources */,
 				D3AB94981D23F2A700EDE7A8 /* AppDelegate.m in Sources */,
 				D3AB94951D23F2A700EDE7A8 /* main.m in Sources */,
+				915854451ED2BF1F003A99EB /* UIButton+CountDown.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
